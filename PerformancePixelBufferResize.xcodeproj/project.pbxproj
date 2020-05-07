@@ -15,6 +15,8 @@
 		321FBC962464043A00D1D33E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321FBC942464043A00D1D33E /* LaunchScreen.storyboard */; };
 		321FBCA12464043A00D1D33E /* PerformancePixelBufferResizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321FBCA02464043A00D1D33E /* PerformancePixelBufferResizeTests.swift */; };
 		321FBCAC2464043A00D1D33E /* PerformancePixelBufferResizeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321FBCAB2464043A00D1D33E /* PerformancePixelBufferResizeUITests.swift */; };
+		321FBCBA2464046200D1D33E /* Resizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321FBCB92464046200D1D33E /* Resizer.swift */; };
+		321FBCC02464092900D1D33E /* sourceVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 321FBCBF2464092900D1D33E /* sourceVideo.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		321FBCA72464043A00D1D33E /* PerformancePixelBufferResizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerformancePixelBufferResizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		321FBCAB2464043A00D1D33E /* PerformancePixelBufferResizeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformancePixelBufferResizeUITests.swift; sourceTree = "<group>"; };
 		321FBCAD2464043A00D1D33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		321FBCB92464046200D1D33E /* Resizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resizer.swift; sourceTree = "<group>"; };
+		321FBCBF2464092900D1D33E /* sourceVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sourceVideo.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		321FBC882464043800D1D33E /* PerformancePixelBufferResize */ = {
 			isa = PBXGroup;
 			children = (
+				321FBCBF2464092900D1D33E /* sourceVideo.mp4 */,
+				321FBCB92464046200D1D33E /* Resizer.swift */,
 				321FBC892464043800D1D33E /* AppDelegate.swift */,
 				321FBC8B2464043800D1D33E /* SceneDelegate.swift */,
 				321FBC8D2464043800D1D33E /* ViewController.swift */,
@@ -234,6 +240,7 @@
 			files = (
 				321FBC962464043A00D1D33E /* LaunchScreen.storyboard in Resources */,
 				321FBC932464043A00D1D33E /* Assets.xcassets in Resources */,
+				321FBCC02464092900D1D33E /* sourceVideo.mp4 in Resources */,
 				321FBC912464043800D1D33E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				321FBCBA2464046200D1D33E /* Resizer.swift in Sources */,
 				321FBC8E2464043800D1D33E /* ViewController.swift in Sources */,
 				321FBC8A2464043800D1D33E /* AppDelegate.swift in Sources */,
 				321FBC8C2464043800D1D33E /* SceneDelegate.swift in Sources */,
@@ -366,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
